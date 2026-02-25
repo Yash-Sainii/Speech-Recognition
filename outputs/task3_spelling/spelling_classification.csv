@@ -1,0 +1,24 @@
+﻿word,spelling_status,reason,is_devanagari,length
+मैं,correct,Known Hindi word,True,3
+पानी,correct,Known Hindi word,True,4
+घर,correct,Known Hindi word,True,2
+खान,correct,Valid structure (proper noun or rare word),True,3
+स्वतंत्रता,correct,Valid structure (proper noun or rare word),True,10
+ईमेल,correct,Valid structure (proper noun or rare word),True,4
+अनिर्भर,correct,Valid structure (proper noun or rare word),True,7
+धन्यवाद,correct,Known Hindi word,True,7
+घरर,correct,Valid structure (proper noun or rare word),True,3
+धन्यवादद,correct,Valid structure (proper noun or rare word),True,8
+छात्र,correct,Valid structure (proper noun or rare word),True,5
+पुस्तक,correct,Valid structure (proper noun or rare word),True,6
+आप,correct,Valid structure (proper noun or rare word),True,2
+फोन,correct,Valid structure (proper noun or rare word),True,3
+खाना,correct,Known Hindi word,True,4
+शिक्षक,correct,Known Hindi word,True,6
+स्कूल,correct,Valid structure (proper noun or rare word),True,5
+नमस्ते,correct,Known Hindi word,True,6
+नमस्तेे,correct,Valid structure (proper noun or rare word),True,7
+कंप्यटू र,correct,English word in Devanagari,True,9
+वह,correct,Known Hindi word,True,2
+पानीी,correct,Valid structure (proper noun or rare word),True,5
+इंटरनेट,correct,Valid structure (proper noun or rare word),True,7

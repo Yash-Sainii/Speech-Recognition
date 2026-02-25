@@ -1,0 +1,8 @@
+﻿recording_id,segment_id,disfluency_type,text,start_time,end_time,duration,audio_clip_path,confidence
+sample_001,seg_1,filler,अह,0.5,3.2,2.7,/Users/ishikagupta/PycharmProjects/HindiASR_ResearchProject/outputs/task2_disfluencies/audio_clips/sample_001_seg_1.wav,1.0
+sample_001,seg_1,filler,हूँ,0.5,3.2,2.7,/Users/ishikagupta/PycharmProjects/HindiASR_ResearchProject/outputs/task2_disfluencies/audio_clips/sample_001_seg_1.wav,1.0
+sample_001,seg_1,filler,न,0.5,3.2,2.7,/Users/ishikagupta/PycharmProjects/HindiASR_ResearchProject/outputs/task2_disfluencies/audio_clips/sample_001_seg_1.wav,1.0
+sample_001,seg_1,filler,अह,0.5,3.2,2.7,/Users/ishikagupta/PycharmProjects/HindiASR_ResearchProject/outputs/task2_disfluencies/audio_clips/sample_001_seg_1.wav,1.0
+sample_001,seg_2,filler,हूँ,3.5,6.1,2.5999999999999996,/Users/ishikagupta/PycharmProjects/HindiASR_ResearchProject/outputs/task2_disfluencies/audio_clips/sample_001_seg_2.wav,1.0
+sample_001,seg_2,filler,न,3.5,6.1,2.5999999999999996,/Users/ishikagupta/PycharmProjects/HindiASR_ResearchProject/outputs/task2_disfluencies/audio_clips/sample_001_seg_2.wav,1.0
+sample_001,seg_2,repetition,मैं मैं कहना चाहता हूँ सब कुछ सही है,3.5,6.1,2.5999999999999996,/Users/ishikagupta/PycharmProjects/HindiASR_ResearchProject/outputs/task2_disfluencies/audio_clips/sample_001_seg_2.wav,1.0

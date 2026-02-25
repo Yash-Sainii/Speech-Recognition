@@ -1,0 +1,342 @@
+2026-02-18 19:49:26,644 - MAIN - INFO - Starting Hindi ASR Research Project
+2026-02-18 19:49:26,644 - MAIN - INFO - Debug Mode: True
+2026-02-18 19:49:26,644 - MAIN - INFO - Sample Size: 10
+2026-02-18 19:54:00,679 - task2_disfluency_detection - INFO - ======================================================================
+2026-02-18 19:54:00,679 - task2_disfluency_detection - INFO - TASK 2: DISFLUENCY DETECTION & SEGMENTATION
+2026-02-18 19:54:00,679 - task2_disfluency_detection - INFO - ======================================================================
+2026-02-18 19:54:00,679 - utils - INFO - Directory ensured: /Users/ishikagupta/PycharmProjects/HindiASR_ResearchProject/outputs/task2_disfluencies
+2026-02-18 19:54:00,679 - utils - INFO - Directory ensured: /Users/ishikagupta/PycharmProjects/HindiASR_ResearchProject/outputs/task2_disfluencies/audio_clips
+2026-02-18 19:54:00,679 - task2_disfluency_detection - INFO - 
+[STEP 1] Loading dataset...
+2026-02-18 19:54:00,679 - task2_disfluency_detection - INFO - Downloading dataset for disfluency detection...
+2026-02-18 19:54:00,679 - task2_disfluency_detection - INFO - Processed 0 recordings with 0 segments
+2026-02-18 19:54:00,679 - task2_disfluency_detection - WARNING - No segments found. Creating sample data for demonstration...
+2026-02-18 19:54:00,679 - task2_disfluency_detection - INFO - 
+[STEP 2] Detecting disfluencies...
+2026-02-18 19:54:00,686 - task2_disfluency_detection - INFO - Detected 7 disfluencies
+2026-02-18 19:54:00,687 - task2_disfluency_detection - INFO - 
+[STEP 3] Clipping audio segments...
+2026-02-18 19:54:00,687 - task2_disfluency_detection - INFO - 
+[STEP 4] Creating output CSV...
+2026-02-18 19:54:00,689 - utils - INFO - Saved CSV: /Users/ishikagupta/PycharmProjects/HindiASR_ResearchProject/outputs/task2_disfluencies/disfluencies.csv, shape: (7, 9)
+2026-02-18 19:54:00,689 - task2_disfluency_detection - INFO - Saved disfluency CSV with 7 entries
+2026-02-18 19:54:00,694 - task2_disfluency_detection - INFO - 
+======================================================================
+2026-02-18 19:54:00,694 - task2_disfluency_detection - INFO - TASK 2 COMPLETED!
+2026-02-18 19:54:00,694 - task2_disfluency_detection - INFO - ======================================================================
+2026-02-18 19:54:00,697 - task3_spelling_correction - INFO - ======================================================================
+2026-02-18 19:54:00,697 - task3_spelling_correction - INFO - TASK 3: SPELLING ERROR DETECTION
+2026-02-18 19:54:00,697 - task3_spelling_correction - INFO - ======================================================================
+2026-02-18 19:54:00,697 - utils - INFO - Directory ensured: /Users/ishikagupta/PycharmProjects/HindiASR_ResearchProject/outputs/task3_spelling
+2026-02-18 19:54:00,697 - task3_spelling_correction - INFO - 
+[STEP 1] Loading word list...
+2026-02-18 19:54:00,697 - task3_spelling_correction - INFO - Using 23 sample words for demonstration
+2026-02-18 19:54:00,697 - task3_spelling_correction - INFO - Processing 23 unique words
+2026-02-18 19:54:00,697 - task3_spelling_correction - INFO - 
+[STEP 2] Classifying spelling...
+2026-02-18 19:54:00,698 - task3_spelling_correction - INFO - 
+[STEP 3] Saving results...
+2026-02-18 19:54:00,698 - utils - INFO - Saved CSV: /Users/ishikagupta/PycharmProjects/HindiASR_ResearchProject/outputs/task3_spelling/spelling_classification.csv, shape: (23, 5)
+2026-02-18 19:54:00,698 - task3_spelling_correction - INFO - 
+[STEP 4] Generating summary...
+2026-02-18 19:54:00,700 - task3_spelling_correction - INFO - 
+Results saved to: /Users/ishikagupta/PycharmProjects/HindiASR_ResearchProject/outputs/task3_spelling/spelling_classification.csv
+2026-02-18 19:54:00,700 - task3_spelling_correction - INFO - Summary stats saved to: /Users/ishikagupta/PycharmProjects/HindiASR_ResearchProject/outputs/task3_spelling/summary_stats.json
+2026-02-18 19:54:00,700 - task3_spelling_correction - INFO - 
+======================================================================
+2026-02-18 19:54:00,700 - task3_spelling_correction - INFO - TASK 3 COMPLETED!
+2026-02-18 19:54:00,700 - task3_spelling_correction - INFO - ======================================================================
+2026-02-18 19:54:00,705 - task4_lattice_wer - INFO - ======================================================================
+2026-02-18 19:54:00,705 - task4_lattice_wer - INFO - TASK 4: LATTICE-BASED WER COMPUTATION
+2026-02-18 19:54:00,705 - task4_lattice_wer - INFO - ======================================================================
+2026-02-18 19:54:00,705 - utils - INFO - Directory ensured: /Users/ishikagupta/PycharmProjects/HindiASR_ResearchProject/outputs/task4_lattice_wer
+2026-02-18 19:54:00,705 - task4_lattice_wer - INFO - 
+[STEP 1] Loading test cases...
+2026-02-18 19:54:00,705 - task4_lattice_wer - INFO - Using 3 sample test cases
+2026-02-18 19:54:00,705 - task4_lattice_wer - INFO - 
+[STEP 2] Evaluating models with lattice-based WER...
+2026-02-18 19:54:00,707 - task4_lattice_wer - INFO - 
+[STEP 3] Saving results...
+2026-02-18 19:54:00,707 - utils - INFO - Saved CSV: /Users/ishikagupta/PycharmProjects/HindiASR_ResearchProject/outputs/task4_lattice_wer/lattice_wer_results.csv, shape: (15, 12)
+2026-02-18 19:54:00,707 - task4_lattice_wer - INFO - 
+[STEP 4] Generating summary...
+2026-02-18 19:54:00,714 - task4_lattice_wer - INFO - 
+Results saved to: /Users/ishikagupta/PycharmProjects/HindiASR_ResearchProject/outputs/task4_lattice_wer/lattice_wer_results.csv
+2026-02-18 19:54:00,714 - task4_lattice_wer - INFO - Detailed results saved to: /Users/ishikagupta/PycharmProjects/HindiASR_ResearchProject/outputs/task4_lattice_wer/detailed_lattice_results.json
+2026-02-18 19:54:00,714 - task4_lattice_wer - INFO - Summary stats saved to: /Users/ishikagupta/PycharmProjects/HindiASR_ResearchProject/outputs/task4_lattice_wer/summary_stats.json
+2026-02-18 19:54:00,714 - task4_lattice_wer - INFO - 
+======================================================================
+2026-02-18 19:54:00,714 - task4_lattice_wer - INFO - TASK 4 COMPLETED!
+2026-02-18 19:54:00,714 - task4_lattice_wer - INFO - ======================================================================
+2026-02-18 20:49:02,845 - task1_whisper_finetuning - INFO - ======================================================================
+2026-02-18 20:49:02,845 - task1_whisper_finetuning - INFO - TASK 1: WHISPER FINE-TUNING FOR HINDI ASR
+2026-02-18 20:49:02,845 - task1_whisper_finetuning - INFO - ======================================================================
+2026-02-18 20:49:02,845 - utils - INFO - Directory ensured: /Users/ishikagupta/PycharmProjects/HindiASR_ResearchProject/outputs/task1_wer_results
+2026-02-18 20:49:02,845 - task1_whisper_finetuning - INFO - 
+[STEP 1] Loading CSV dataset...
+2026-02-18 20:49:02,845 - task1_whisper_finetuning - INFO - Preparing dataset from CSV...
+2026-02-18 20:49:02,847 - task1_whisper_finetuning - INFO - Loaded CSV with 104 records
+2026-02-18 20:49:02,847 - task1_whisper_finetuning - INFO - Columns: ['user_id', 'recording_id', 'language', 'duration', 'rec_url_gcp', 'transcription_url_gcp', 'metadata_url_gcp']
+2026-02-18 20:49:02,855 - task2_disfluency_detection - INFO - ======================================================================
+2026-02-18 20:49:02,855 - task2_disfluency_detection - INFO - TASK 2: DISFLUENCY DETECTION & SEGMENTATION
+2026-02-18 20:49:02,855 - task2_disfluency_detection - INFO - ======================================================================
+2026-02-18 20:49:02,855 - utils - INFO - Directory ensured: /Users/ishikagupta/PycharmProjects/HindiASR_ResearchProject/outputs/task2_disfluencies
+2026-02-18 20:49:02,855 - utils - INFO - Directory ensured: /Users/ishikagupta/PycharmProjects/HindiASR_ResearchProject/outputs/task2_disfluencies/audio_clips
+2026-02-18 20:49:02,855 - task2_disfluency_detection - INFO - 
+[STEP 1] Loading dataset...
+2026-02-18 20:49:02,855 - task2_disfluency_detection - INFO - Downloading dataset for disfluency detection...
+2026-02-18 20:49:02,855 - task2_disfluency_detection - INFO - Processed 0 recordings with 0 segments
+2026-02-18 20:49:02,855 - task2_disfluency_detection - WARNING - No segments found. Creating sample data for demonstration...
+2026-02-18 20:49:02,855 - task2_disfluency_detection - INFO - 
+[STEP 2] Detecting disfluencies...
+2026-02-18 20:49:02,863 - task2_disfluency_detection - INFO - Detected 7 disfluencies
+2026-02-18 20:49:02,863 - task2_disfluency_detection - INFO - 
+[STEP 3] Clipping audio segments...
+2026-02-18 20:49:02,864 - task2_disfluency_detection - INFO - 
+[STEP 4] Creating output CSV...
+2026-02-18 20:49:02,868 - utils - INFO - Saved CSV: /Users/ishikagupta/PycharmProjects/HindiASR_ResearchProject/outputs/task2_disfluencies/disfluencies.csv, shape: (7, 9)
+2026-02-18 20:49:02,868 - task2_disfluency_detection - INFO - Saved disfluency CSV with 7 entries
+2026-02-18 20:49:02,875 - task2_disfluency_detection - INFO - 
+======================================================================
+2026-02-18 20:49:02,875 - task2_disfluency_detection - INFO - TASK 2 COMPLETED!
+2026-02-18 20:49:02,875 - task2_disfluency_detection - INFO - ======================================================================
+2026-02-18 20:49:02,876 - task3_spelling_correction - INFO - ======================================================================
+2026-02-18 20:49:02,876 - task3_spelling_correction - INFO - TASK 3: SPELLING ERROR DETECTION
+2026-02-18 20:49:02,876 - task3_spelling_correction - INFO - ======================================================================
+2026-02-18 20:49:02,877 - utils - INFO - Directory ensured: /Users/ishikagupta/PycharmProjects/HindiASR_ResearchProject/outputs/task3_spelling
+2026-02-18 20:49:02,877 - task3_spelling_correction - INFO - 
+[STEP 1] Loading word list...
+2026-02-18 20:49:02,877 - task3_spelling_correction - INFO - Using 23 sample words for demonstration
+2026-02-18 20:49:02,877 - task3_spelling_correction - INFO - Processing 23 unique words
+2026-02-18 20:49:02,877 - task3_spelling_correction - INFO - 
+[STEP 2] Classifying spelling...
+2026-02-18 20:49:02,877 - task3_spelling_correction - INFO - 
+[STEP 3] Saving results...
+2026-02-18 20:49:02,878 - utils - INFO - Saved CSV: /Users/ishikagupta/PycharmProjects/HindiASR_ResearchProject/outputs/task3_spelling/spelling_classification.csv, shape: (23, 5)
+2026-02-18 20:49:02,878 - task3_spelling_correction - INFO - 
+[STEP 4] Generating summary...
+2026-02-18 20:49:02,879 - task3_spelling_correction - INFO - 
+Results saved to: /Users/ishikagupta/PycharmProjects/HindiASR_ResearchProject/outputs/task3_spelling/spelling_classification.csv
+2026-02-18 20:49:02,879 - task3_spelling_correction - INFO - Summary stats saved to: /Users/ishikagupta/PycharmProjects/HindiASR_ResearchProject/outputs/task3_spelling/summary_stats.json
+2026-02-18 20:49:02,879 - task3_spelling_correction - INFO - 
+======================================================================
+2026-02-18 20:49:02,880 - task3_spelling_correction - INFO - TASK 3 COMPLETED!
+2026-02-18 20:49:02,880 - task3_spelling_correction - INFO - ======================================================================
+2026-02-18 20:49:02,886 - task4_lattice_wer - INFO - ======================================================================
+2026-02-18 20:49:02,886 - task4_lattice_wer - INFO - TASK 4: LATTICE-BASED WER COMPUTATION
+2026-02-18 20:49:02,886 - task4_lattice_wer - INFO - ======================================================================
+2026-02-18 20:49:02,886 - utils - INFO - Directory ensured: /Users/ishikagupta/PycharmProjects/HindiASR_ResearchProject/outputs/task4_lattice_wer
+2026-02-18 20:49:02,886 - task4_lattice_wer - INFO - 
+[STEP 1] Loading test cases...
+2026-02-18 20:49:02,886 - task4_lattice_wer - INFO - Using 3 sample test cases
+2026-02-18 20:49:02,886 - task4_lattice_wer - INFO - 
+[STEP 2] Evaluating models with lattice-based WER...
+2026-02-18 20:49:02,887 - task4_lattice_wer - INFO - 
+[STEP 3] Saving results...
+2026-02-18 20:49:02,888 - utils - INFO - Saved CSV: /Users/ishikagupta/PycharmProjects/HindiASR_ResearchProject/outputs/task4_lattice_wer/lattice_wer_results.csv, shape: (15, 12)
+2026-02-18 20:49:02,888 - task4_lattice_wer - INFO - 
+[STEP 4] Generating summary...
+2026-02-18 20:49:02,897 - task4_lattice_wer - INFO - 
+Results saved to: /Users/ishikagupta/PycharmProjects/HindiASR_ResearchProject/outputs/task4_lattice_wer/lattice_wer_results.csv
+2026-02-18 20:49:02,897 - task4_lattice_wer - INFO - Detailed results saved to: /Users/ishikagupta/PycharmProjects/HindiASR_ResearchProject/outputs/task4_lattice_wer/detailed_lattice_results.json
+2026-02-18 20:49:02,897 - task4_lattice_wer - INFO - Summary stats saved to: /Users/ishikagupta/PycharmProjects/HindiASR_ResearchProject/outputs/task4_lattice_wer/summary_stats.json
+2026-02-18 20:49:02,897 - task4_lattice_wer - INFO - 
+======================================================================
+2026-02-18 20:49:02,897 - task4_lattice_wer - INFO - TASK 4 COMPLETED!
+2026-02-18 20:49:02,897 - task4_lattice_wer - INFO - ======================================================================
+2026-02-18 21:13:10,637 - task1_whisper_finetuning - INFO - ======================================================================
+2026-02-18 21:13:10,637 - task1_whisper_finetuning - INFO - TASK 1: WHISPER FINE-TUNING FOR HINDI ASR
+2026-02-18 21:13:10,637 - task1_whisper_finetuning - INFO - ======================================================================
+2026-02-18 21:13:10,637 - utils - INFO - Directory ensured: /Users/ishikagupta/PycharmProjects/HindiASR_ResearchProject/outputs/task1_wer_results
+2026-02-18 21:13:10,637 - task1_whisper_finetuning - INFO - 
+[STEP 1] Loading CSV dataset...
+2026-02-18 21:13:10,637 - task1_whisper_finetuning - INFO - Preparing dataset from CSV...
+2026-02-18 21:13:10,639 - task1_whisper_finetuning - INFO - Loaded CSV with 104 records
+2026-02-18 21:13:10,639 - task1_whisper_finetuning - INFO - Columns: ['user_id', 'recording_id', 'language', 'duration', 'rec_url_gcp', 'transcription_url_gcp', 'metadata_url_gcp']
+2026-02-18 21:13:10,646 - task1_whisper_finetuning - INFO - Prepared 10 dataset items from CSV
+2026-02-18 21:13:10,646 - task1_whisper_finetuning - INFO - 
+[STEP 2] Downloading data...
+2026-02-18 21:13:10,792 - utils - ERROR - Failed to download https://storage.googleapis.com/upload_goai/245746/825780_transcription.json: 404 Client Error: Not Found for url: https://storage.googleapis.com/upload_goai/245746/825780_transcription.json
+2026-02-18 21:13:10,889 - utils - ERROR - Failed to download https://storage.googleapis.com/upload_goai/291038/825727_transcription.json: 404 Client Error: Not Found for url: https://storage.googleapis.com/upload_goai/291038/825727_transcription.json
+2026-02-18 21:13:10,999 - utils - ERROR - Failed to download https://storage.googleapis.com/upload_goai/246004/988596_transcription.json: 404 Client Error: Not Found for url: https://storage.googleapis.com/upload_goai/246004/988596_transcription.json
+2026-02-18 21:13:11,095 - utils - ERROR - Failed to download https://storage.googleapis.com/upload_goai/93626/990175_transcription.json: 404 Client Error: Not Found for url: https://storage.googleapis.com/upload_goai/93626/990175_transcription.json
+2026-02-18 21:13:11,190 - utils - ERROR - Failed to download https://storage.googleapis.com/upload_goai/286851/526266_transcription.json: 404 Client Error: Not Found for url: https://storage.googleapis.com/upload_goai/286851/526266_transcription.json
+2026-02-18 21:13:11,276 - utils - ERROR - Failed to download https://storage.googleapis.com/upload_goai/494/520199_transcription.json: 404 Client Error: Not Found for url: https://storage.googleapis.com/upload_goai/494/520199_transcription.json
+2026-02-18 21:13:11,378 - utils - ERROR - Failed to download https://storage.googleapis.com/upload_goai/212729/542785_transcription.json: 404 Client Error: Not Found for url: https://storage.googleapis.com/upload_goai/212729/542785_transcription.json
+2026-02-18 21:13:11,492 - utils - ERROR - Failed to download https://storage.googleapis.com/upload_goai/218779/494019_transcription.json: 404 Client Error: Not Found for url: https://storage.googleapis.com/upload_goai/218779/494019_transcription.json
+2026-02-18 21:13:11,591 - utils - ERROR - Failed to download https://storage.googleapis.com/upload_goai/197862/523045_transcription.json: 404 Client Error: Not Found for url: https://storage.googleapis.com/upload_goai/197862/523045_transcription.json
+2026-02-18 21:13:11,671 - utils - ERROR - Failed to download https://storage.googleapis.com/upload_goai/309629/522951_transcription.json: 404 Client Error: Not Found for url: https://storage.googleapis.com/upload_goai/309629/522951_transcription.json
+2026-02-18 21:13:11,672 - task1_whisper_finetuning - INFO - Prepared 0 training samples
+2026-02-18 21:13:11,672 - task1_whisper_finetuning - WARNING - No valid training data found
+2026-02-18 21:13:11,672 - task1_whisper_finetuning - INFO - Creating sample data for demonstration...
+2026-02-18 21:13:11,672 - task1_whisper_finetuning - INFO - 
+[STEP 3] Creating summary report...
+2026-02-18 21:13:11,673 - task1_whisper_finetuning - INFO - 
+======================================================================
+2026-02-18 21:13:11,673 - task1_whisper_finetuning - INFO - TASK 1 COMPLETED - DATA READY FOR FINE-TUNING
+2026-02-18 21:13:11,673 - task1_whisper_finetuning - INFO - ======================================================================
+2026-02-18 21:13:11,687 - task2_disfluency_detection - INFO - ======================================================================
+2026-02-18 21:13:11,687 - task2_disfluency_detection - INFO - TASK 2: DISFLUENCY DETECTION & SEGMENTATION
+2026-02-18 21:13:11,687 - task2_disfluency_detection - INFO - ======================================================================
+2026-02-18 21:13:11,687 - utils - INFO - Directory ensured: /Users/ishikagupta/PycharmProjects/HindiASR_ResearchProject/outputs/task2_disfluencies
+2026-02-18 21:13:11,687 - utils - INFO - Directory ensured: /Users/ishikagupta/PycharmProjects/HindiASR_ResearchProject/outputs/task2_disfluencies/audio_clips
+2026-02-18 21:13:11,687 - task2_disfluency_detection - INFO - 
+[STEP 1] Loading dataset...
+2026-02-18 21:13:11,687 - task2_disfluency_detection - INFO - Downloading dataset for disfluency detection...
+2026-02-18 21:13:11,687 - task2_disfluency_detection - INFO - Processed 0 recordings with 0 segments
+2026-02-18 21:13:11,687 - task2_disfluency_detection - WARNING - No segments found. Creating sample data for demonstration...
+2026-02-18 21:13:11,687 - task2_disfluency_detection - INFO - 
+[STEP 2] Detecting disfluencies...
+2026-02-18 21:13:11,688 - task2_disfluency_detection - INFO - Detected 7 disfluencies
+2026-02-18 21:13:11,688 - task2_disfluency_detection - INFO - 
+[STEP 3] Clipping audio segments...
+2026-02-18 21:13:11,688 - task2_disfluency_detection - INFO - 
+[STEP 4] Creating output CSV...
+2026-02-18 21:13:11,691 - utils - INFO - Saved CSV: /Users/ishikagupta/PycharmProjects/HindiASR_ResearchProject/outputs/task2_disfluencies/disfluencies.csv, shape: (7, 9)
+2026-02-18 21:13:11,691 - task2_disfluency_detection - INFO - Saved disfluency CSV with 7 entries
+2026-02-18 21:13:11,698 - task2_disfluency_detection - INFO - 
+======================================================================
+2026-02-18 21:13:11,698 - task2_disfluency_detection - INFO - TASK 2 COMPLETED!
+2026-02-18 21:13:11,698 - task2_disfluency_detection - INFO - ======================================================================
+2026-02-18 21:13:11,699 - task3_spelling_correction - INFO - ======================================================================
+2026-02-18 21:13:11,699 - task3_spelling_correction - INFO - TASK 3: SPELLING ERROR DETECTION
+2026-02-18 21:13:11,699 - task3_spelling_correction - INFO - ======================================================================
+2026-02-18 21:13:11,699 - utils - INFO - Directory ensured: /Users/ishikagupta/PycharmProjects/HindiASR_ResearchProject/outputs/task3_spelling
+2026-02-18 21:13:11,699 - task3_spelling_correction - INFO - 
+[STEP 1] Loading word list...
+2026-02-18 21:13:11,699 - task3_spelling_correction - INFO - Using 23 sample words for demonstration
+2026-02-18 21:13:11,699 - task3_spelling_correction - INFO - Processing 23 unique words
+2026-02-18 21:13:11,699 - task3_spelling_correction - INFO - 
+[STEP 2] Classifying spelling...
+2026-02-18 21:13:11,700 - task3_spelling_correction - INFO - 
+[STEP 3] Saving results...
+2026-02-18 21:13:11,700 - utils - INFO - Saved CSV: /Users/ishikagupta/PycharmProjects/HindiASR_ResearchProject/outputs/task3_spelling/spelling_classification.csv, shape: (23, 5)
+2026-02-18 21:13:11,700 - task3_spelling_correction - INFO - 
+[STEP 4] Generating summary...
+2026-02-18 21:13:11,702 - task3_spelling_correction - INFO - 
+Results saved to: /Users/ishikagupta/PycharmProjects/HindiASR_ResearchProject/outputs/task3_spelling/spelling_classification.csv
+2026-02-18 21:13:11,702 - task3_spelling_correction - INFO - Summary stats saved to: /Users/ishikagupta/PycharmProjects/HindiASR_ResearchProject/outputs/task3_spelling/summary_stats.json
+2026-02-18 21:13:11,703 - task3_spelling_correction - INFO - 
+======================================================================
+2026-02-18 21:13:11,703 - task3_spelling_correction - INFO - TASK 3 COMPLETED!
+2026-02-18 21:13:11,703 - task3_spelling_correction - INFO - ======================================================================
+2026-02-18 21:13:11,708 - task4_lattice_wer - INFO - ======================================================================
+2026-02-18 21:13:11,708 - task4_lattice_wer - INFO - TASK 4: LATTICE-BASED WER COMPUTATION
+2026-02-18 21:13:11,708 - task4_lattice_wer - INFO - ======================================================================
+2026-02-18 21:13:11,708 - utils - INFO - Directory ensured: /Users/ishikagupta/PycharmProjects/HindiASR_ResearchProject/outputs/task4_lattice_wer
+2026-02-18 21:13:11,708 - task4_lattice_wer - INFO - 
+[STEP 1] Loading test cases...
+2026-02-18 21:13:11,708 - task4_lattice_wer - INFO - Using 3 sample test cases
+2026-02-18 21:13:11,708 - task4_lattice_wer - INFO - 
+[STEP 2] Evaluating models with lattice-based WER...
+2026-02-18 21:13:11,710 - task4_lattice_wer - INFO - 
+[STEP 3] Saving results...
+2026-02-18 21:13:11,710 - utils - INFO - Saved CSV: /Users/ishikagupta/PycharmProjects/HindiASR_ResearchProject/outputs/task4_lattice_wer/lattice_wer_results.csv, shape: (15, 12)
+2026-02-18 21:13:11,710 - task4_lattice_wer - INFO - 
+[STEP 4] Generating summary...
+2026-02-18 21:13:11,720 - task4_lattice_wer - INFO - 
+Results saved to: /Users/ishikagupta/PycharmProjects/HindiASR_ResearchProject/outputs/task4_lattice_wer/lattice_wer_results.csv
+2026-02-18 21:13:11,720 - task4_lattice_wer - INFO - Detailed results saved to: /Users/ishikagupta/PycharmProjects/HindiASR_ResearchProject/outputs/task4_lattice_wer/detailed_lattice_results.json
+2026-02-18 21:13:11,720 - task4_lattice_wer - INFO - Summary stats saved to: /Users/ishikagupta/PycharmProjects/HindiASR_ResearchProject/outputs/task4_lattice_wer/summary_stats.json
+2026-02-18 21:13:11,720 - task4_lattice_wer - INFO - 
+======================================================================
+2026-02-18 21:13:11,720 - task4_lattice_wer - INFO - TASK 4 COMPLETED!
+2026-02-18 21:13:11,720 - task4_lattice_wer - INFO - ======================================================================
+2026-02-19 15:16:16,554 - task1_whisper_finetuning - INFO - ======================================================================
+2026-02-19 15:16:16,554 - task1_whisper_finetuning - INFO - TASK 1: WHISPER FINE-TUNING FOR HINDI ASR
+2026-02-19 15:16:16,554 - task1_whisper_finetuning - INFO - ======================================================================
+2026-02-19 15:16:16,554 - utils - INFO - Directory ensured: /Users/ishikagupta/PycharmProjects/HindiASR_ResearchProject/outputs/task1_wer_results
+2026-02-19 15:16:16,554 - task1_whisper_finetuning - INFO - 
+[STEP 1] Loading CSV dataset...
+2026-02-19 15:16:16,554 - task1_whisper_finetuning - INFO - Preparing dataset from CSV...
+2026-02-19 15:16:16,559 - task1_whisper_finetuning - INFO - Loaded CSV with 104 records
+2026-02-19 15:16:16,559 - task1_whisper_finetuning - INFO - Columns: ['user_id', 'recording_id', 'language', 'duration', 'rec_url_gcp', 'transcription_url_gcp', 'metadata_url_gcp']
+2026-02-19 15:16:16,570 - task1_whisper_finetuning - INFO - Prepared 10 dataset items from CSV
+2026-02-19 15:16:16,570 - task1_whisper_finetuning - INFO - 
+[STEP 2] Downloading data...
+2026-02-19 15:16:16,824 - utils - ERROR - Failed to download https://storage.googleapis.com/upload_goai/245746/825780_transcription.json: 404 Client Error: Not Found for url: https://storage.googleapis.com/upload_goai/245746/825780_transcription.json
+2026-02-19 15:16:16,950 - utils - ERROR - Failed to download https://storage.googleapis.com/upload_goai/291038/825727_transcription.json: 404 Client Error: Not Found for url: https://storage.googleapis.com/upload_goai/291038/825727_transcription.json
+2026-02-19 15:16:17,065 - utils - ERROR - Failed to download https://storage.googleapis.com/upload_goai/246004/988596_transcription.json: 404 Client Error: Not Found for url: https://storage.googleapis.com/upload_goai/246004/988596_transcription.json
+2026-02-19 15:16:17,167 - utils - ERROR - Failed to download https://storage.googleapis.com/upload_goai/93626/990175_transcription.json: 404 Client Error: Not Found for url: https://storage.googleapis.com/upload_goai/93626/990175_transcription.json
+2026-02-19 15:16:17,381 - utils - ERROR - Failed to download https://storage.googleapis.com/upload_goai/286851/526266_transcription.json: 404 Client Error: Not Found for url: https://storage.googleapis.com/upload_goai/286851/526266_transcription.json
+2026-02-19 15:16:17,485 - utils - ERROR - Failed to download https://storage.googleapis.com/upload_goai/494/520199_transcription.json: 404 Client Error: Not Found for url: https://storage.googleapis.com/upload_goai/494/520199_transcription.json
+2026-02-19 15:16:17,606 - utils - ERROR - Failed to download https://storage.googleapis.com/upload_goai/212729/542785_transcription.json: 404 Client Error: Not Found for url: https://storage.googleapis.com/upload_goai/212729/542785_transcription.json
+2026-02-19 15:16:17,760 - utils - ERROR - Failed to download https://storage.googleapis.com/upload_goai/218779/494019_transcription.json: 404 Client Error: Not Found for url: https://storage.googleapis.com/upload_goai/218779/494019_transcription.json
+2026-02-19 15:16:17,849 - utils - ERROR - Failed to download https://storage.googleapis.com/upload_goai/197862/523045_transcription.json: 404 Client Error: Not Found for url: https://storage.googleapis.com/upload_goai/197862/523045_transcription.json
+2026-02-19 15:16:18,052 - utils - ERROR - Failed to download https://storage.googleapis.com/upload_goai/309629/522951_transcription.json: 404 Client Error: Not Found for url: https://storage.googleapis.com/upload_goai/309629/522951_transcription.json
+2026-02-19 15:16:18,054 - task1_whisper_finetuning - INFO - Prepared 0 training samples
+2026-02-19 15:16:18,054 - task1_whisper_finetuning - WARNING - No valid training data found
+2026-02-19 15:16:18,054 - task1_whisper_finetuning - INFO - Creating sample data for demonstration...
+2026-02-19 15:16:18,054 - task1_whisper_finetuning - INFO - 
+[STEP 3] Creating summary report...
+2026-02-19 15:16:18,055 - task1_whisper_finetuning - INFO - 
+======================================================================
+2026-02-19 15:16:18,055 - task1_whisper_finetuning - INFO - TASK 1 COMPLETED - DATA READY FOR FINE-TUNING
+2026-02-19 15:16:18,055 - task1_whisper_finetuning - INFO - ======================================================================
+2026-02-19 15:16:18,069 - task2_disfluency_detection - INFO - ======================================================================
+2026-02-19 15:16:18,069 - task2_disfluency_detection - INFO - TASK 2: DISFLUENCY DETECTION & SEGMENTATION
+2026-02-19 15:16:18,069 - task2_disfluency_detection - INFO - ======================================================================
+2026-02-19 15:16:18,069 - utils - INFO - Directory ensured: /Users/ishikagupta/PycharmProjects/HindiASR_ResearchProject/outputs/task2_disfluencies
+2026-02-19 15:16:18,069 - utils - INFO - Directory ensured: /Users/ishikagupta/PycharmProjects/HindiASR_ResearchProject/outputs/task2_disfluencies/audio_clips
+2026-02-19 15:16:18,069 - task2_disfluency_detection - INFO - 
+[STEP 1] Loading dataset...
+2026-02-19 15:16:18,069 - task2_disfluency_detection - INFO - Downloading dataset for disfluency detection...
+2026-02-19 15:16:18,069 - task2_disfluency_detection - INFO - Processed 0 recordings with 0 segments
+2026-02-19 15:16:18,069 - task2_disfluency_detection - WARNING - No segments found. Creating sample data for demonstration...
+2026-02-19 15:16:18,069 - task2_disfluency_detection - INFO - 
+[STEP 2] Detecting disfluencies...
+2026-02-19 15:16:18,069 - task2_disfluency_detection - INFO - Detected 7 disfluencies
+2026-02-19 15:16:18,069 - task2_disfluency_detection - INFO - 
+[STEP 3] Clipping audio segments...
+2026-02-19 15:16:18,070 - task2_disfluency_detection - INFO - 
+[STEP 4] Creating output CSV...
+2026-02-19 15:16:18,075 - utils - INFO - Saved CSV: /Users/ishikagupta/PycharmProjects/HindiASR_ResearchProject/outputs/task2_disfluencies/disfluencies.csv, shape: (7, 9)
+2026-02-19 15:16:18,075 - task2_disfluency_detection - INFO - Saved disfluency CSV with 7 entries
+2026-02-19 15:16:18,087 - task2_disfluency_detection - INFO - 
+======================================================================
+2026-02-19 15:16:18,087 - task2_disfluency_detection - INFO - TASK 2 COMPLETED!
+2026-02-19 15:16:18,087 - task2_disfluency_detection - INFO - ======================================================================
+2026-02-19 15:16:18,088 - task3_spelling_correction - INFO - ======================================================================
+2026-02-19 15:16:18,088 - task3_spelling_correction - INFO - TASK 3: SPELLING ERROR DETECTION
+2026-02-19 15:16:18,088 - task3_spelling_correction - INFO - ======================================================================
+2026-02-19 15:16:18,088 - utils - INFO - Directory ensured: /Users/ishikagupta/PycharmProjects/HindiASR_ResearchProject/outputs/task3_spelling
+2026-02-19 15:16:18,088 - task3_spelling_correction - INFO - 
+[STEP 1] Loading word list...
+2026-02-19 15:16:18,088 - task3_spelling_correction - INFO - Using 23 sample words for demonstration
+2026-02-19 15:16:18,088 - task3_spelling_correction - INFO - Processing 23 unique words
+2026-02-19 15:16:18,088 - task3_spelling_correction - INFO - 
+[STEP 2] Classifying spelling...
+2026-02-19 15:16:18,089 - task3_spelling_correction - INFO - 
+[STEP 3] Saving results...
+2026-02-19 15:16:18,089 - utils - INFO - Saved CSV: /Users/ishikagupta/PycharmProjects/HindiASR_ResearchProject/outputs/task3_spelling/spelling_classification.csv, shape: (23, 5)
+2026-02-19 15:16:18,089 - task3_spelling_correction - INFO - 
+[STEP 4] Generating summary...
+2026-02-19 15:16:18,095 - task3_spelling_correction - INFO - 
+Results saved to: /Users/ishikagupta/PycharmProjects/HindiASR_ResearchProject/outputs/task3_spelling/spelling_classification.csv
+2026-02-19 15:16:18,095 - task3_spelling_correction - INFO - Summary stats saved to: /Users/ishikagupta/PycharmProjects/HindiASR_ResearchProject/outputs/task3_spelling/summary_stats.json
+2026-02-19 15:16:18,095 - task3_spelling_correction - INFO - 
+======================================================================
+2026-02-19 15:16:18,095 - task3_spelling_correction - INFO - TASK 3 COMPLETED!
+2026-02-19 15:16:18,095 - task3_spelling_correction - INFO - ======================================================================
+2026-02-19 15:16:18,104 - task4_lattice_wer - INFO - ======================================================================
+2026-02-19 15:16:18,104 - task4_lattice_wer - INFO - TASK 4: LATTICE-BASED WER COMPUTATION
+2026-02-19 15:16:18,104 - task4_lattice_wer - INFO - ======================================================================
+2026-02-19 15:16:18,105 - utils - INFO - Directory ensured: /Users/ishikagupta/PycharmProjects/HindiASR_ResearchProject/outputs/task4_lattice_wer
+2026-02-19 15:16:18,105 - task4_lattice_wer - INFO - 
+[STEP 1] Loading test cases...
+2026-02-19 15:16:18,105 - task4_lattice_wer - INFO - Using 3 sample test cases
+2026-02-19 15:16:18,105 - task4_lattice_wer - INFO - 
+[STEP 2] Evaluating models with lattice-based WER...
+2026-02-19 15:16:18,106 - task4_lattice_wer - INFO - 
+[STEP 3] Saving results...
+2026-02-19 15:16:18,107 - utils - INFO - Saved CSV: /Users/ishikagupta/PycharmProjects/HindiASR_ResearchProject/outputs/task4_lattice_wer/lattice_wer_results.csv, shape: (15, 12)
+2026-02-19 15:16:18,107 - task4_lattice_wer - INFO - 
+[STEP 4] Generating summary...
+2026-02-19 15:16:18,130 - task4_lattice_wer - INFO - 
+Results saved to: /Users/ishikagupta/PycharmProjects/HindiASR_ResearchProject/outputs/task4_lattice_wer/lattice_wer_results.csv
+2026-02-19 15:16:18,130 - task4_lattice_wer - INFO - Detailed results saved to: /Users/ishikagupta/PycharmProjects/HindiASR_ResearchProject/outputs/task4_lattice_wer/detailed_lattice_results.json
+2026-02-19 15:16:18,130 - task4_lattice_wer - INFO - Summary stats saved to: /Users/ishikagupta/PycharmProjects/HindiASR_ResearchProject/outputs/task4_lattice_wer/summary_stats.json
+2026-02-19 15:16:18,130 - task4_lattice_wer - INFO - 
+======================================================================
+2026-02-19 15:16:18,130 - task4_lattice_wer - INFO - TASK 4 COMPLETED!
+2026-02-19 15:16:18,130 - task4_lattice_wer - INFO - ======================================================================

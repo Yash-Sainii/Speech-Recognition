@@ -1,0 +1,14 @@
+{
+  "total_samples": 5,
+  "sample_transcriptions": [
+    "नमस्ते मैं एक सैंपल डेटा हूँ",
+    "नमस्ते मैं एक सैंपल डेटा हूँ",
+    "नमस्ते मैं एक सैंपल डेटा हूँ",
+    "नमस्ते मैं एक सैंपल डेटा हूँ",
+    "नमस्ते मैं एक सैंपल डेटा हूँ"
+  ],
+  "status": "Data prepared for fine-tuning",
+  "note": "Task 1 requires 'datasets' library. Install with: pip install datasets",
+  "csv_loaded": true,
+  "csv_path": "/Users/ishikagupta/PycharmProjects/HindiASR_ResearchProject/data/raw/FT Data - data.csv"
+}

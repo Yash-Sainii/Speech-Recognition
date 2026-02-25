@@ -1,0 +1,8 @@
+{
+  "total_test_cases": 3,
+  "total_models": 5,
+  "avg_original_wer": 0.18666666666666668,
+  "avg_lattice_wer": 0.31999333333333335,
+  "avg_improvement_percentage": -43.223333333333336,
+  "models_improved": 1
+}

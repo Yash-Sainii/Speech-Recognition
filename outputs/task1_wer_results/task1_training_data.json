@@ -1,0 +1,23 @@
+{
+  "recording_ids": [
+    "sample_0",
+    "sample_1",
+    "sample_2",
+    "sample_3",
+    "sample_4"
+  ],
+  "transcriptions": [
+    "नमस्ते मैं एक सैंपल डेटा हूँ",
+    "नमस्ते मैं एक सैंपल डेटा हूँ",
+    "नमस्ते मैं एक सैंपल डेटा हूँ",
+    "नमस्ते मैं एक सैंपल डेटा हूँ",
+    "नमस्ते मैं एक सैंपल डेटा हूँ"
+  ],
+  "audio_paths": [
+    "/Users/ishikagupta/PycharmProjects/HindiASR_ResearchProject/data/raw/sample_0.wav",
+    "/Users/ishikagupta/PycharmProjects/HindiASR_ResearchProject/data/raw/sample_1.wav",
+    "/Users/ishikagupta/PycharmProjects/HindiASR_ResearchProject/data/raw/sample_2.wav",
+    "/Users/ishikagupta/PycharmProjects/HindiASR_ResearchProject/data/raw/sample_3.wav",
+    "/Users/ishikagupta/PycharmProjects/HindiASR_ResearchProject/data/raw/sample_4.wav"
+  ]
+}
