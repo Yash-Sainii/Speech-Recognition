@@ -7,9 +7,7 @@ import os
 import logging
 from pathlib import Path
 
-# ============================================
-# LOGGING SETUP
-# ============================================
+
 
 def setup_logger(name: str) -> logging.Logger:
     """Setup logger for the project"""
