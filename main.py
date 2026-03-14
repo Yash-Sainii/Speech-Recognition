@@ -2,7 +2,7 @@
 MAIN.PY - ENTRY POINT FOR ALL TASKS
 Run this file to execute all 4 tasks sequentially
 """
-
+ 
 import os
 import sys
 from pathlib import Path
