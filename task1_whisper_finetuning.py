@@ -1,8 +1,3 @@
-"""
-TASK 1: WHISPER MODEL FINE-TUNING FOR HINDI ASR
-Fine-tune Whisper-small on real Hindi audio data from Google Cloud Storage
-"""
-
 import os
 import json
 import torch
